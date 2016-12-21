@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/calendar_main"
+            android:title="Calendar"
+            android:enabled="false">
+            <menu>
+                <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/Daily"
+                    android:icon="@drawable/ic_menu_send"
+                    android:checked="false"
+                    android:title="Daily"/>
+
+                <item
+                    android:id="@+id/Weekly"
+                    android:icon="@drawable/ic_menu_send"
+                    android:checked="false"
+                    android:title="Weekly"/>
+
+                <item
+                    android:id="@+id/Monthly"
+                    android:icon="@drawable/ic_menu_send"
+                    android:checked="false"
+                    android:title="Monthly" />
+
+                <item
+                    android:id="@+id/Yearly"
+                    android:icon="@drawable/ic_menu_send"
+                    android:checked="false"
+                    android:title="Yearly"/>
+
+                    <item
+                        android:id="@+id/Manage_Events"
+                        android:checked="false"
+                        android:icon="@drawable/ic_menu_send"
+                        android:title="Manage Events" />
+
+                </group>
+            </menu>
+        </item>
+
+        <item
+            android:id="@+id/Plan_Your_Day"
+            android:title="Plan Your Day"
+            android:enabled="false">
+
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/Manage_Days"
+                        android:icon="@drawable/ic_menu_send"
+                        android:checked="false"
+                        android:title="Manage Days"/>
+                </group>
+            </menu>
+        </item>
+    </group>
+</menu>
